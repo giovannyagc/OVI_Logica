@@ -1,23 +1,32 @@
+#{
+	padding:0;
+	margin:0;
+}
+@font-face {
+	font-family: "Angsana New", Angsana New Bold, Franklin Gothic Heavy, Franklin Gothic Book;
+}
 #header {
-    /*height: auto!important;
+	/*height: auto!important;
     /*headerHeight*/
     height: 120px;
     /*headerBGColor*/
     background-color: #015581;
     /*headerBGURL*/
-    background-image: url(../img/baner2.jpg);
-    /*headerBGRepeat*/
+    background-image: url(../img/banner2.jpg);
+	/*headerBGRepeat*/
     background-repeat: no-repeat;
     /*headerBGPosition*/
     background-position: fixed;
     border: 1px solid/*headerBorderColor*/
     #005fbf;
+	padding: 3px;
 }
 
 #header h1 {
-    font-family:Angsana New Bold;
-	font-size:30px;
+    font-family: "Franklin Gothic Book";
+	font-size:25px;
 	color:#ffffff!important;
+	border: 1px
 }
 
 #headerContent {
@@ -31,8 +40,12 @@
     text-align: right;
 }
 
+#body {
+	margin: 40px;
+}
+
 /*Estilos pie de pagina*/
-footer{
+header, footer{
 
         position: relative;
         margin-top: -10px;
@@ -42,7 +55,17 @@ footer{
         background: rgb(240, 180, 41);
         text-align: center;
         color: #fff;
+}
 
+nav {
+	position: relative;
+        margin-top: 10px;
+        width: 100%;
+        padding: 50px;
+        clear: both;
+        background: rgb(240, 180, 41);
+        text-align: center;
+        color: #fff;
 }
 
 aside{
