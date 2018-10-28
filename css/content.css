@@ -1,0 +1,54 @@
+#header {
+    /*height: auto!important;
+    /*headerHeight*/
+    height: 120px;
+    /*headerBGColor*/
+    background-color: #015581;
+    /*headerBGURL*/
+    background-image: url(../img/baner2.jpg);
+    /*headerBGRepeat*/
+    background-repeat: no-repeat;
+    /*headerBGPosition*/
+    background-position: fixed;
+    border: 1px solid/*headerBorderColor*/
+    #005fbf;
+}
+
+#header h1 {
+    font-family:Angsana New Bold;
+	font-size:30px;
+	color:#ffffff!important;
+}
+
+#headerContent {
+    /*headerTitleTopMargin*/
+    padding-top: 200px;
+    /*headerTitleColor*/
+    color: #ff7f00;
+    /*headerTitleTextShadowColor*/
+	text-shadow: 1px 1px 1px #191919;
+    /*headerTitleAlign*/
+    text-align: right;
+}
+
+/*Estilos pie de pagina*/
+footer{
+
+        position: relative;
+        margin-top: -10px;
+        width: 100%;
+        padding: 50px;
+        clear: both;
+        background: rgb(240, 180, 41);
+        text-align: center;
+        color: #fff;
+
+}
+
+aside{
+    float: left;
+    padding: 50px;
+    width: 10%;
+    height: 2%;
+
+}
